@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(188, 153, 220);
+    font-family: 'Merriweather', serif;
+    /* line-height: 2;  */
+}
+
+#shinchan{
+    height: 200px;
+}
+
+#pro{
+    color: rgb(27, 8, 44);
+}
+
+h1{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem; /*we can define font size by px, %, em and rem.. 100% = 16px = 1em/rem
+    px = it doesn't change on changing the font-size of the website on browser to any other size
+    % and em changes but they also inherit the size of parent element it means if parent element has font-size of 
+    20% and current element has 50% then these two sizes get add up showing unspeicified behavior
+    rem = it changes on changing the font-size of the website on browser to any other size
+    but doesn't inherit the font-size of parent element*/
+    color: rgb(48, 15, 76);
+}
+
+.content{
+    height: 100px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
+    color: rgb(83, 28, 131);
+    font-weight:lighter;
+}
+
+#cloud2{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+
+h2{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(83, 28, 131);
+}
+
+#sun{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    height: 20%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+#sleep{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.sleepimg{
+    float: left;
+    margin-right: 30px;
+}
+
+.teaseimg{
+    float:right;
+    margin-left: 30px;
+}
+
+/* #sleepdesc{
+    clear: left;
+}
+
+#teasedesc{
+    clear: right;
+} */
+
+#tease{
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.main{
+    background-color:blueviolet;
+    padding-top: 200px;
+}
+
+#cloud1{
+    position: relative;
+    left: 250px;
+}
+
+hr{
+    border-style: dotted;
+    border-bottom: 0px;
+    width: 10%;
+    border-width: 5px;
+    border-color: grey;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+h3{
+    color: rgb(48, 15, 76);
+}
+
+.contact-me{
+
+}
+
+/* .red{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    margin-left: 260px;
+    border: 20px solid black;
+    display: none;
+}
+
+.blue{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    margin: 0px; 
+    margin-left: 500px;
+    border: 10px solid black;
+    display: none;
+}
+ */
+
+ .btn {
+    background: blueviolet;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid rgb(103, 34, 167) 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 100px;
+ }
+ 
+ .btn:hover {
+    border: solid rgb(59, 20, 93) 1px;
+    background-color: rgb(83, 28, 131);
+ }
+
+ .bottom-container{
+    background-color: rgb(163, 95, 228);
+    padding: 50px;
+ }
+
+ .footer-link{
+    color: rgb(48, 15, 76);
+    text-decoration: none;
+    margin: 30px;
+    font-weight: bolder;
+    font-size:large;
+ }
+
+ .last{
+    margin-top: 50px;
+    color: white;
+ }
